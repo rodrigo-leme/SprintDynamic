@@ -46,6 +46,9 @@ Preços unitários e fornecedores
 
 
 📊 Exemplo de Saída
+
+
+
 🔬 SISTEMA DE CONTROLE DE ESTOQUE - DASA PATOLOGIA
 ============================================================
 
