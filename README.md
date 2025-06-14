@@ -45,6 +45,7 @@ Preços unitários e fornecedores
 
 
 
+
 📊 Exemplo de Saída
 
 
@@ -52,21 +53,29 @@ Preços unitários e fornecedores
 🔬 SISTEMA DE CONTROLE DE ESTOQUE - DASA PATOLOGIA
 ============================================================
 
-1️⃣ ANÁLISE DE PRODUTOS EM FALTA (Algoritmo Heap - O(n log k)):
-------------------------------------------------------------
 ⏱️  Tempo de execução com Heap: 0.000245 segundos
+
 📊 Total de produtos em falta: 8
 
 🚨 Top 3 produtos mais críticos:
+
 1. Lâminas_Microscopia em DASA_BA_Salvador
+   
    Criticidade: 40.0%
+   
    Faltam: 60 unidades
+   
    Custo reposição: R$ 51.00
 
-2. Reagente_Hematoxilina em DASA_BA_Salvador
+4. Reagente_Hematoxilina em DASA_BA_Salvador
+   
    Criticidade: 62.5%
+   
    Faltam: 5 unidades
+   
    Custo reposição: R$ 725.00
+
+   
 🔍 Considerações Finais
 Este sistema resolve os desafios apresentados pela DASA ao:
 
