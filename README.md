@@ -22,10 +22,7 @@ Sistema completo de gestão de estoque desenvolvido para otimizar o controle de 
 python --version  # Python 3 
 
 
-Sistema de Controle de Estoque para Laboratório de Patologia 🔬
-- sistema de controle de estoque para laboratórios, focando em insumos críticos para análises patológicas.
 
-📋 Visão Geral do Projeto
 Este sistema foi desenvolvido para resolver problemas de:
 
 Baixa visibilidade no controle de insumos (Desafio 1)
@@ -44,3 +41,34 @@ Dados simulados baseados em cenários reais:
 10+ tipos de insumos essenciais
 Valores de estoque atual, mínimo e ideal
 Preços unitários e fornecedores
+
+
+
+
+📊 Exemplo de Saída
+🔬 SISTEMA DE CONTROLE DE ESTOQUE - DASA PATOLOGIA
+============================================================
+
+1️⃣ ANÁLISE DE PRODUTOS EM FALTA (Algoritmo Heap - O(n log k)):
+------------------------------------------------------------
+⏱️  Tempo de execução com Heap: 0.000245 segundos
+📊 Total de produtos em falta: 8
+
+🚨 Top 3 produtos mais críticos:
+1. Lâminas_Microscopia em DASA_BA_Salvador
+   Criticidade: 40.0%
+   Faltam: 60 unidades
+   Custo reposição: R$ 51.00
+
+2. Reagente_Hematoxilina em DASA_BA_Salvador
+   Criticidade: 62.5%
+   Faltam: 5 unidades
+   Custo reposição: R$ 725.00
+🔍 Considerações Finais
+Este sistema resolve os desafios apresentados pela DASA ao:
+
+Eliminar processos manuais propensos a erros
+Fornecer visibilidade em tempo real do estoque
+Automatizar decisões de reposição e transferência
+Otimizar custos através de análises preditivas
+Garantir disponibilidade de insumos críticos
